@@ -5,10 +5,15 @@ Uses python library [checkdmarc](https://github.com/domainaware/checkdmarc/blob/
 
 SPF breakdown text taken from [dmarcian.com](https://dmarcian.com/spf-syntax-table/).
 
-## Pre-Reqs
-First, own the libs:
+## Virtual ENV
+First, create a virtual environment:
 ```
-pip3 install checkdmarc tabulate
+python3 -m venv .venv
+source .venv/bin/activate
+```
+Then use the following command to install dependancies/modules:
+```
+pip install -r requirements.txt
 ```
 
 # Running
